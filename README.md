@@ -1,1 +1,1 @@
-# Flying Bird JS game
+# Flying Ball JS game
