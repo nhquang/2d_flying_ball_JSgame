@@ -3,14 +3,14 @@
 <head>
     <meta charset="utf-8" />
 	<script src="/app.js"></script>
-    <title>Breakout</title>
+    <title>Flying Ball</title>
     <style>
     	* { padding: 0; margin: 0; }
     	canvas { background: #eee; display: block; margin: 0 auto; }
     </style>
     
 </head>
-<body style="">
+<body>
 	
 	<canvas id="myCanvas" width="500" height="400"></canvas>
 	<br>
@@ -33,9 +33,9 @@
 	var background = new Image();
 	background.src = "background.png";
 	
-	background.onload = function(){
-		ctx.drawImage(background,0,0);   
-	}
+	//background.onload = function(){
+	//	ctx.drawImage(background,0,0);   
+	//}
 	
 	var obstacleWidth = 40;
 	
